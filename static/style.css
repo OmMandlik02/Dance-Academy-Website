@@ -1,0 +1,130 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: rgb(117, 162, 49);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+#main_nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#main_nav li{
+    padding: 20px;
+    list-style: none;
+    margin: auto;
+    
+}
+#main_nav{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin: 20px ;
+    margin-top: 30px;
+}
+#introSection {
+    opacity: 0.9;
+    height: 300px;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60') no-repeat center center ;
+    background-size: cover;
+    font-size: 2rem;
+}
+#sponsorSection{
+    height: 240px;
+    background-color: rgb(176, 120, 73);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serifs;
+}
+#sponsorSection h2{
+    padding: 10px;
+    font-weight: bold;
+}
+#missonSection{
+    height: 250px;
+    text-align: center;
+}
+#missonSection h2{
+    padding: 10px;
+}
+#footer{
+    background-color: rgb(83, 88, 75);
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+   transition: 2s;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffeffb;
+    
+    
+}
+#navbar li:hover{
+    transform: scale(1.5);
+}
+#navbar li a:hover{
+    color: black;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+#logo img{
+    padding: 10px;
+    height: 42px;
+    filter: invert(1);
+}
+.card-img{
+    height: 100px;
+}
+.card-content{
+    font-size: 12px;
+    padding: 10px;
+}
+.card-img img{
+    height: inherit;
+
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+}
+.sponsors{
+    height: 100px;
+    margin: auto;
+}
+.spImage{
+    height: 140px;
+    margin: 20px;
+    filter: invert(1);
+}
+

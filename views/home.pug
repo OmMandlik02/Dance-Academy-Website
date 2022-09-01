@@ -1,0 +1,49 @@
+extends base.pug      
+//- Extentds is used to use template of already existing pug and update info in it
+
+block scripts
+  script(src="/static/index.js")
+
+block style 
+  style 
+    include  ../static/style.css
+
+block content 
+    
+    h1 Anybody Can Dance
+    section#introSection 
+      h1 Welcome to Maharashtra Dance  Academy
+      h4 Dance Eat Sleep Repeat
+    section#missonSection 
+      h2 Our Mission
+      div.card
+        h3 Make the dancing world
+        div.card-box
+          div.card-img
+            img(src="https://mpng.subpng.com/20180329/euw/kisspng-hip-hop-dance-silhouette-clip-art-hip-hop-5abd0ba335de23.1677250415223387232207.jpg", alt="")
+          div.card-content
+            | Make the world dance is much better than make the world cry
+      div.card
+        h3 Deep the world in joy of dance
+        div.card-box
+          div.card-img
+            img(src="https://banner2.cleanpng.com/20181106/ays/kisspng-clip-art-hip-hop-music-hip-hop-dance-image-5be2172dbe2117.0135776815415437257788.jpg", alt="")
+          div.card-content
+            | Make the world dance is much better than make the world cry
+      div.card
+        h3 Spread the colour of dance 
+        div.card-box
+          div.card-img
+            img(src="https://www.downloadclipart.net/large/silhouette-dance-png-photos.png", alt="")
+          div.card-content
+            | Make the world dance is much better than make the world cry
+    section#sponsorSection 
+      h2 Our Sponsors 
+      div.sponsors
+        img(src="https://w7.pngwing.com/pngs/519/252/png-transparent-logo-brand-adidas-sponsor-shoe-brands-angle-text-label-thumbnail.png", alt="adidas",class="spImage")
+        img(src="https://w7.pngwing.com/pngs/724/89/png-transparent-red-bull-grand-prix-of-the-americas-logo-marketing-sponsor-don-t-leave-company-text-sport-thumbnail.png", alt="red-bull",class="spImage")
+        img(src="https://w1.pngwing.com/pngs/706/638/png-transparent-pepsico-logo-rock-on-tv-television-sponsor-microsoft-azure-exhibition-pepsi-bottling-group-text-thumbnail.png", alt="coco-cola",class="spImage")
+        img(src="https://www.fnqtropicaldancefestival.com/uploads/3/6/8/3/3683167/_2980980_orig.jpg", alt="Cairns" , class="spImage")
+      
+    script
+      include ../static/script.js
